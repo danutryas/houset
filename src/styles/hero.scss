@@ -1,0 +1,40 @@
+@import './colors';
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    .desc {
+        width: 522px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+        h1 {
+            font-size: 48px;
+            color: #000022;
+            font-weight: 300;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+        .bold {
+            font-weight: 700;
+        }
+        a {
+            padding: 22px 38px;
+            font-size: 24px;
+            font-weight: 600;
+            background-color: $blue5;
+            border-radius: 15px;
+            letter-spacing: 0.07em;
+        }
+    }
+
+    & > img {
+        height: 524px;
+    }
+}

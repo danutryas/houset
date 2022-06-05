@@ -1,0 +1,59 @@
+@import './colors';
+
+.contact {
+    align-self: flex-start;
+    display: flex;
+    gap: 60px;
+    margin: 100px 0 45px 0;
+    width: 100%;
+    align-items: center;
+
+    .accent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 655px;
+        height: 408px;
+        background-color: $blue4 ;
+        h2 {
+            transform: translateX(24%);
+            font-size: 96px;
+        }
+    }
+
+    form {
+        display: grid;
+        // flex-basis: 55%;
+        // width: calc( 100% - 169px );
+        grid-template-columns: 455px 455px;
+        grid-template-rows: 63px 63px auto;
+        gap: 75px 56px;
+        input:not(:last-child) {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid $blue3;
+            padding-left: 22px;
+            font-size: 24px;
+        }
+
+        input:last-child {
+            border: none;
+            outline: none;
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0.07em;
+            grid-column-start: 2;
+            background-color: $blue2;
+            color: white;
+            height: 73px;
+            border-radius: 15px;
+            width: 368px;
+            justify-self: end;
+            cursor: pointer;
+        }
+
+        input::placeholder {
+            color: rgba(#000, 0.25);
+        }
+    }
+}

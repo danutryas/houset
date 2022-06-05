@@ -1,0 +1,36 @@
+.how-it-work {
+  padding: 72px 0 106px 0;
+  border-top: 1px solid #0077b6;
+  border-bottom: 1px solid #0077b6;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.how-it-work .things {
+  display: flex;
+  width: 1258px;
+  justify-content: center;
+  gap: 78px;
+  transform: translateX(3%);
+}
+.how-it-work .things .feature {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 32%;
+}
+.how-it-work .things .feature:nth-child(1) {
+  flex-basis: 25%;
+}
+.how-it-work .things .feature .icon {
+  width: 50px;
+}
+.how-it-work .things .feature h4 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.how-it-work .things .feature p {
+  font-size: 18px;
+}/*# sourceMappingURL=features.css.map */

@@ -1,0 +1,37 @@
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.banner .desc {
+  width: 522px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+.banner .desc h1 {
+  font-size: 48px;
+  color: #000022;
+  font-weight: 300;
+}
+.banner .desc p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.banner .desc .bold {
+  font-weight: 700;
+}
+.banner .desc a {
+  padding: 22px 38px;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #caf0f8;
+  border-radius: 15px;
+  letter-spacing: 0.07em;
+}
+.banner > img {
+  height: 524px;
+}/*# sourceMappingURL=Hero.css.map */

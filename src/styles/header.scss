@@ -1,0 +1,25 @@
+@import "./colors";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 132px;
+    height: 134px;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba($color: #000000, $alpha: 0.1);
+
+    .cta-home {
+        font-size: 36px;
+        color: $blue2;
+        letter-spacing: 0.07em;
+        font-weight: 600;
+    }
+
+    .cta-catalog {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}

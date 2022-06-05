@@ -1,0 +1,72 @@
+[
+    {
+        "id": "p001",
+        "name": "Meja Kantor",
+        "type": "Meja",
+        "price": "500000",
+        "qty": "10"
+    },
+    {
+        "id": "p002",
+        "name": "Meja Kamar",
+        "type": "Meja",
+        "price": "250000",
+        "qty": "20"
+    },
+    {
+        "id": "p003",
+        "name": "Sofa Ruang Keluarga",
+        "type": "Sofa",
+        "price": "600000",
+        "qty": "4"
+    },
+    {
+        "id": "p004",
+        "name": "Kursi Kantor",
+        "type": "Kursi",
+        "price": "100000",
+        "qty": "40"
+    },
+    {
+        "id": "p005",
+        "name": "Sofa Tamu",
+        "type": "Sofa",
+        "price": "700000",
+        "qty": "2"
+    },
+    {
+        "id": "p006",
+        "name": "Kasur Double",
+        "type": "Kasur",
+        "price": "220000",
+        "qty": "7"
+    },
+    {
+        "id": "p007",
+        "name": "Kasur Single",
+        "type": "Kasur",
+        "price": "150000",
+        "qty": "14"
+    },
+    {
+        "id": "p008",
+        "name": "Meja Makan",
+        "type": "Meja",
+        "price": "1000000",
+        "qty": "10"
+    },
+    {
+        "id": "p009",
+        "name": "Lemari Baju",
+        "type": "Lemari",
+        "price": "400000",
+        "qty": "10"
+    },
+    {
+        "id": "p010",
+        "name": "Lemari Pajangan",
+        "type": "Lemari",
+        "price": "500000",
+        "qty": "20"
+    }
+]
