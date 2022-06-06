@@ -9,8 +9,8 @@ function ProductTable() {
     const {setModal,setModifyModal,setDeleteModal} = useContext(ModalContext)
     
     const modifyHandler = (data) => {
-        setModal(() =>true)
-        setModifyModal(() =>true)
+        setModal(() => true)
+        setModifyModal(() => true)
         setSelectedData(data)
         setName(data.name)
         setType(data.type)
@@ -18,9 +18,9 @@ function ProductTable() {
         setQuantity(parseInt(data.qty))
     } 
     const deleteHandler = (data) => {
-        setModal(() =>true)
+        setModal(() => true)
         setSelectedData(data)
-        setDeleteModal(() =>true)
+        setDeleteModal(() => true)
     }
 
     return (
@@ -45,6 +45,7 @@ function ProductTable() {
                     <td>{data.name}</td>
                     <td>{data.type}</td>
                     <td>Rp {toRupiah(data.price,{symbol:null, floatingPoint: 0})}</td>
+                    {/* <td>Rp {data.price}</td> */}
                     <td>{data.qty}</td>
                     <td className='action-btn'>
                         <button className='modify' onClick={() => modifyHandler(data)}>Modify</button>

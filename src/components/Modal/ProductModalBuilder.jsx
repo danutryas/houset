@@ -19,20 +19,20 @@ function ProductModalBuilder() {
       <section className='name'>
         <label htmlFor="name">Product Name</label>
           <div className="field" >
-              <input type="text" name='name' value={name} onChange={(e) => setName(e.target.value)} autocomplete="off"/>
+              <input type="text" name='name' value={name} onChange={(e) => setName(e.target.value)} autoComplete="off"/>
           </div>
       </section>
       <section className='type'>
         <label htmlFor="type">Product Type</label>
         <div className="field">
-          <input type="text" name='type' value={type} onChange={(e) => setType(e.target.value)} autocomplete="off"/>
+          <input type="text" name='type' value={type} onChange={(e) => setType(e.target.value)} autoComplete="off"/>
         </div>
       </section>
       <section className='price'>
         <label htmlFor="price">Product Price</label>
         <div className="field">
           <p>Rp</p>
-          <input type="number" name='price' value={price === 0 ? "": price} onChange={(e) => setPrice(e.target.value)} autocomplete="off"/>
+          <input type="number" name='price' value={price === 0 ? "": price} onChange={(e) => setPrice(e.target.value)} autoComplete="off"/>
         </div>
       </section>
       <section className='quantity'>
