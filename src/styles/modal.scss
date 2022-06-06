@@ -1,0 +1,181 @@
+@import './colors';
+
+aside.modal {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 61px 93px;
+    gap: 19px;
+
+    &>button {
+        width: 255px;
+        height: 42px;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 6px 0;
+        background-color: $blue5;
+        border-radius: 8px;
+        align-self: flex-end;
+    }
+}
+
+aside.modal.delete {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 176px;
+    gap: 34px;
+    width: 654px;
+    height: 260px;
+
+    h1 {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .cta {
+        margin-top: 11px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            padding: 6px 34px;
+            line-height: 28px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: .5em;
+
+            &:nth-child(1) {
+                background-color: #8BEBFF;
+                color: black;
+            }
+
+            &:nth-child(2) {
+                background-color: #DE0303;
+                color: white;
+            }
+        }
+    }
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-top: 34px;
+
+    section {
+        display: flex;
+        align-items: center;
+        height: 67px;
+
+        label {
+            width: 178px;
+            font-style: italic;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        input {
+            height: 60px;
+            width: 100%;
+            font-size: 20px;
+            line-height: 28px;
+            padding-left: 20px;
+            border-radius: 20px;
+            outline: none;
+        }
+
+        .field {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            width: 636px;
+
+            button {
+                height: 24px;
+                width: 24px;
+                border-radius: 6px;
+                border: 1px solid black;
+                position: relative;
+
+                &:nth-child(1) {
+                    span {
+                        width: 14px;
+                        height: 2px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background-color: black;
+                        border-radius: 1px;
+                    }
+                }
+
+                &:nth-child(3) {
+                    span {
+                        width: 14px;
+                        height: 2px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background-color: black;
+                        border-radius: 1px;
+
+                        &:nth-child(2) {
+                            top: 45%;
+                            left: 19%;
+                            transform: rotate(90deg) translate(0, 0);
+                        }
+                    }
+                }
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 28px;
+
+                &.quantity {
+                    width: 20px;
+                    text-align: center;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+aside.modal.active {
+    display: flex;
+}
+
+aside.delete.active {
+    display: flex;
+    // @extend aside.modal.delete;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

@@ -1,0 +1,90 @@
+@import './colors';
+
+.table-container {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto 57px auto ;
+    border-radius: 15px;
+    box-shadow: 0 0 3px 0 rgba(#373737, .25);
+}
+
+.catalog {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    .add-product {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        height: 52px;
+        background-color: $blue5;
+        margin: 32px 0 32px calc(100% - 169px);
+        padding: 12px 19px 12px 11px;
+        width: 170px;
+        border-radius: .5em;
+        cursor: pointer;
+        .icon {
+            height: 24px;
+            width: 24px;
+        }
+        & > button {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+    thead>tr {
+        height: 78px;
+
+        td {
+            font-size: 20px;
+            color: #020354;
+            font-weight: 500;
+
+        }
+    }
+    tbody>tr {
+        height: 71px;
+
+        td {
+            font-size: 20px;
+        }
+    }
+
+    tr {
+        border-bottom: 1px solid black;
+
+    }
+    .action-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        height: 71px;
+        button {
+            height: 26px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: .5em;
+            width: 97px;
+        }
+        .modify {
+            background-color: #FFF8AC;
+            color: #BDA51C;
+        }   
+        .delete {
+            background-color: #FFEFE0;
+            color: #e6360a;
+        }   
+    }
+}
+
+

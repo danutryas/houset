@@ -1,0 +1,81 @@
+.table-container {
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto 57px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 3px 0 rgba(55, 55, 55, 0.25);
+}
+
+.catalog {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.catalog .add-product {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  background-color: #caf0f8;
+  margin: 32px 0 32px calc(100% - 169px);
+  padding: 12px 19px 12px 11px;
+  width: 170px;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.catalog .add-product .icon {
+  height: 24px;
+  width: 24px;
+}
+.catalog .add-product > button {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 20px;
+  text-align: center;
+}
+table thead > tr {
+  height: 78px;
+}
+table thead > tr td {
+  font-size: 20px;
+  color: #020354;
+  font-weight: 500;
+}
+table tbody > tr {
+  height: 71px;
+}
+table tbody > tr td {
+  font-size: 20px;
+}
+table tr {
+  border-bottom: 1px solid black;
+}
+table .action-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  height: 71px;
+}
+table .action-btn button {
+  height: 26px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 0.5em;
+  width: 97px;
+}
+table .action-btn .modify {
+  background-color: #FFF8AC;
+  color: #BDA51C;
+}
+table .action-btn .delete {
+  background-color: #FFEFE0;
+  color: #e6360a;
+}/*# sourceMappingURL=catalog.css.map */
