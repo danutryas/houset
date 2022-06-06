@@ -1,4 +1,3 @@
-import axios from 'axios'
 import React, { useContext } from 'react'
 import InputContext from '../Context/getInput'
 import ModalContext from '../Context/ModalContext'

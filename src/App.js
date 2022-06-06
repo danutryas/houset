@@ -10,8 +10,6 @@ import Homepage from './pages/Homepage';
 import CombinedContext from "./components/Context/CombinedContext";
 import './styles/css/modal.css'
 
-import { useContext } from "react";
-import ModalContext from "./components/Context/ModalContext";
 import ModalComponent from "./components/ModalComponent";
 
 function App() {
